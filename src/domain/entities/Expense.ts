@@ -1,6 +1,6 @@
 import type { Money } from '../value-objects/Money';
 
-export type SplitMode = 'EQUAL' | 'EXACT' | 'PERCENTAGE';
+export type SplitMode = 'EQUAL' | 'CUSTOM' | 'EXACT' | 'PERCENTAGE';
 
 export interface SplitAllocation {
   participantId: string;

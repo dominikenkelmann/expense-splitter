@@ -29,4 +29,20 @@ export class Group {
     this.createdAt = props.createdAt;
     this.updatedAt = props.updatedAt;
   }
+
+  hasParticipant(participantId: string): boolean {
+    return this.participants.some((p) => p.id === participantId);
+  }
+
+  addExpense(expense: Expense): Group {
+    return new Group({
+      id: this.id,
+      name: this.name,
+      currency: this.currency,
+      participants: this.participants,
+      expenses: [...this.expenses, expense],
+      createdAt: this.createdAt,
+      updatedAt: new Date(),
+    });
+  }
 }
