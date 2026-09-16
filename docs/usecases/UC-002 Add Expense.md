@@ -140,6 +140,46 @@ This use case starts when the Participant selects the "Add Expense" action on th
 
 ## 9. UI Sketch
 
+```text
++-----------------------------------------------------------------------+
+|  RECORD NEW EXPENSE                                            [ X ]  |
++-----------------------------------------------------------------------+
+|  Description:                                                         |
+|  [ Alpine Hut Dinner & Drinks___________________________________ ]    |
+|                                                                       |
+|  Amount:                                      Paid By:                |
+|  [ € 180.00          ]                        [ Alice             v ] |
+|                                                                       |
+|  Split Method:                                                        |
+|  (•) Equal Split                      ( ) Custom Allocation           |
+|                                                                       |
+|  Split Across:                                                        |
+|  [v] Alice       (Share: €60.00)                                      |
+|  [v] Bob         (Share: €60.00)                                      |
+|  [v] Charlie     (Share: €60.00)                                      |
+|                                                                       |
+|  Allocation Summary: 3 selected · €60.00 / person · Total: €180.00    |
+|  -------------------------------------------------------------------  |
+|  [ Cancel ]                                       [ Save Expense ]    |
++-----------------------------------------------------------------------+
+```
+
+```text
++-----------------------------------------------------------------------+
+|  Split Method:                                                        |
+|  ( ) Equal Split                      (•) Custom Allocation           |
+|                                                                       |
+|  Custom Member Shares:                                                |
+|  - Alice:   [ € 80.00      ]                                          |
+|  - Bob:     [ € 60.00      ]                                          |
+|  - Charlie: [ € 40.00      ]                                          |
+|                                                                       |
+|  [✓] Allocated: €180.00 of €180.00 (Remaining: €0.00)                 |
+|  -------------------------------------------------------------------  |
+|  [ Cancel ]                                       [ Save Expense ]    |
++-----------------------------------------------------------------------+
+```
+
 #### [Add Expense Form]
 
 **Fields**

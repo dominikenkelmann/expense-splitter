@@ -115,6 +115,30 @@ This use case starts when the Organiser initiates group creation on the landing 
 
 ## 9. UI Sketch
 
+```
++-----------------------------------------------------------------------+
+|  FairSplit                                         [+ New Group]      |
++-----------------------------------------------------------------------+
+|                                                                       |
+|  CREATE NEW EXPENSE GROUP                                             |
+|  Set up a shared ledger with your group in seconds.                   |
+|                                                                       |
+|  Group Name:                                                          |
+|  [ Summer Roadtrip 2026_________________________________________ ]    |
+|                                                                       |
+|  Participants (min. 2):                                               |
+|  1. [ Alice Enkelmann__________________________________ ]  [ x ]      |
+|  2. [ Bob Miller_______________________________________ ]  [ x ]      |
+|  3. [ Charlie Davis____________________________________ ]  [ x ]      |
+|                                                                       |
+|  [ + Add Participant ]                                                |
+|                                                                       |
+|  -------------------------------------------------------------------  |
+|  [ Cancel ]                                   [ Create Group -> ]     |
+|                                                                       |
++-----------------------------------------------------------------------+
+```
+
 #### [Create Group View]
 
 **Fields**
