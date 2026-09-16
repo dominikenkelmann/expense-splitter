@@ -1,4 +1,9 @@
 
+# Dependencies & Build
+node_modules/
+dist/
+coverage/
+
 # Blog & Draft Artifacts
 Blog_implementation_plan.md
 blog-post-draft.md
