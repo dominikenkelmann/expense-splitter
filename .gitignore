@@ -1,0 +1,10 @@
+
+# Blog & Draft Artifacts
+Blog_implementation_plan.md
+blog-post-draft.md
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
